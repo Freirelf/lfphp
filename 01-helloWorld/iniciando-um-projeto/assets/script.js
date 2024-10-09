@@ -1,0 +1,1 @@
+document.getElementById('js').innerHTML = 'Aqui foi renderizado pelo JS';
