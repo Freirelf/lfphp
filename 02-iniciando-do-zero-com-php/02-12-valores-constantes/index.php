@@ -59,3 +59,7 @@ class LfPHP
 }
 
 var_dump(new LfPHP());
+
+require __DIR__ . "/MyClass.php";
+var_dump(new \Source\MyClass());
+var_dump(\Source\MyClass::class);
